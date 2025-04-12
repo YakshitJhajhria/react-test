@@ -9,8 +9,14 @@ module.exports = {
         comic: ["Comic Neue", "sans-serif"],
         luckiest: ["Luckiest Guy", "sans-serif"],
       },
-      colors: {},
-      backgroundColor: {},
+      colors: {
+        primary: "#EB879C",
+        secondary: "#DB3357",
+      },
+      backgroundColor: {
+        primary:
+          "linear-gradient(90deg, #B21F3F 0%, #DB3357 50%, #B21F3F 100%);",
+      },
     },
   },
   plugins: [],
