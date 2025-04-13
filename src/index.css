@@ -5,5 +5,9 @@
 @tailwind utilities;
 
 body {
-    @apply font-barlow
+    @apply font-barlow bg-black text-white
+}
+
+.stroked-text {
+    -webkit-text-stroke: 0.5px white;
 }
