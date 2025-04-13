@@ -1,3 +1,12 @@
+import {
+  AutomaticRewardsIcon,
+  ComunityEmpoweredIcon,
+  FunAndEngagingIcon,
+  HassleFreeProfitsIcon,
+  SupportCharitiesIcon,
+  TransparentAndSecureIcon,
+} from "./Icons";
+
 export const faqsData = [
   {
     question: "Why should I buy it in the pre-sale?",
@@ -81,5 +90,42 @@ export const roadmapData = [
       "Increase charity partnerships and community involvement worldwide.",
       "Continuously innovate and improve the platform based on community feedback.",
     ],
+  },
+];
+
+export const FeaturesData = [
+  {
+    image: <HassleFreeProfitsIcon />,
+    heading: "Hassle-Free Profits:",
+    description: "Purrticipate and watch ur moneys grow effortlessly!",
+  },
+  {
+    image: <AutomaticRewardsIcon />,
+    heading: "Automatic Rewards:",
+    description:
+      "Win rewards automatically as da pool grows and da red dot is caught.",
+  },
+  {
+    image: <ComunityEmpoweredIcon />,
+    heading: "Community Empowered:",
+    description: "Pool moneys with fellow cat lovers and crypto enthusiasts.",
+  },
+  {
+    image: <FunAndEngagingIcon />,
+    heading: "Fun and Engaging:",
+    description:
+      "Enjoy da thrill of da chase with our playful cat-themed game.",
+  },
+  {
+    image: <TransparentAndSecureIcon />,
+    heading: "Transparent and Secure:",
+    description:
+      "Built on blockchain technology, ensuring all transactions are secure and visible.",
+  },
+  {
+    image: <SupportCharitiesIcon />,
+    heading: "Support Charities:",
+    description:
+      "A portion of da pooled moneys goes to support animal shelters and cat-related causes",
   },
 ];
