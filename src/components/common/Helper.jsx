@@ -129,3 +129,30 @@ export const FeaturesData = [
       "A portion of da pooled moneys goes to support animal shelters and cat-related causes",
   },
 ];
+
+export const howitworksData = [
+  {
+    image: "images/png/join-the-pool.png",
+    heading: "1. Join the pool",
+    description:
+      "Cats gather their catnip and fish bones, while hoomins contribute their crypto to the weekly pool.",
+  },
+  {
+    image: "images/png/build-the-machine.png",
+    heading: "2. Build the Machine",
+    description:
+      "Watch as the community’s contributions fund the construction of the Red Dot Catching Machine.",
+  },
+  {
+    image: "images/png/catch-the-dot.png",
+    heading: "3. Catch the Red Dot",
+    description:
+      "When the machine is complete, the red dot is caught, and the jackpot is awarded to one or two lucky winners.",
+  },
+  {
+    image: "images/png/repeat-and-win-more.png",
+    heading: "4. Repeat and Win More",
+    description:
+      "The pool resets, and a new machine is built the following week. Every month, a special bonus machine with a larger jackpot is also constructed.",
+  },
+];

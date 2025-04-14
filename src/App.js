@@ -5,7 +5,9 @@ import TopHeader from "./components/common/TopHeader";
 import Faqs from "./components/Faqs";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
+import HowItWorks from "./components/HowItWorks";
 import OurRoadMap from "./components/OurRoadMap";
+import WhatIsCatmoneyCatch from "./components/WhatIsCatmoneyCatch";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <TopHeader />
       <Navbar />
       <Hero />
+      <WhatIsCatmoneyCatch />
+      <HowItWorks />
       <Features />
       <OurRoadMap />
       <Faqs />

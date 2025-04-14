@@ -20,13 +20,13 @@ const Features = () => {
         {FeaturesData.map((featuresItem, featuresItemIndex) => (
           <div
             key={featuresItemIndex}
-            className="flex items-start gap-3 sm:gap-6"
+            className="flex items-start gap-4 sm:gap-6"
           >
             <span className="min-w-[96px] h-[96px] flex items-center justify-center bg-tertiary rounded-full">
               {featuresItem.image}
             </span>
             <div className="md:max-w-[414px] w-full flex flex-col gap-2">
-              <h2 className="font-bold text-[20px] sm:text-[24px] leading-[120%]">
+              <h2 className="font-bold text-[20px] sm:text-[24px] leading-[120%] font-comic">
                 {featuresItem.heading}
               </h2>
               <p className="text-base sm:text-[18px] font-light leading-[150%]">

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { MenuIcon, TelegeramIcon, XIcon } from "./Icons";
 import Sidebar from "./Sidebar";
 
@@ -8,6 +8,18 @@ const Navbar = () => {
   const handleNavbar = () => {
     setNavbar(!navbar);
   };
+
+  useEffect(() => {
+    if (navbar) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [navbar]);
   return (
     <nav className="max-w-[1440px] mt-4 sm:mt-[27px] w-full flex items-center justify-between px-4 md:px-10 lg:px-16 xl:px-20 mx-auto">
       <a href="/">
@@ -60,7 +72,7 @@ const Navbar = () => {
         </button>
       </div>
       <div
-        className={`absolute md:hidden w-full top-0 duration-300 h-screen ${
+        className={`absolute md:hidden w-full z-50 bg-black overflow-hidden top-0 duration-300 h-screen ${
           navbar ? "left-0" : "left-[-150%]"
         }`}
       >
